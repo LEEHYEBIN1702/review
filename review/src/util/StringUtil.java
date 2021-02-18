@@ -21,15 +21,15 @@ public class StringUtil {
 		return result;
 	}
 
-	/**
+	/** 
 	 * 경로명에서 파일이름만 추출 
 	 * param s 
 	 * 경로명 "c:/img/item/p01.jpg" 
 	 * return 파일명 p01.jpg
-	 */
+	 */ //2번
 	public static String getFilename(String s) {
 		String result = "";
-		
+		result =  s.substring(s.lastIndexOf("/") + 1);
 		return result;
 	}
 
@@ -41,7 +41,7 @@ public class StringUtil {
 	 */
 	public static String getPath(String pathname) {
         String result = "";
-		
+        result =  pathname.substring(0, pathname.lastIndexOf("/") + 1);
 		return result;
 
 	}

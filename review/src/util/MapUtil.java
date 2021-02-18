@@ -28,7 +28,7 @@ public class MapUtil {
 		return name;
 	}
 	
-	//맵 리턴
+	//맵 리턴 //6번
 	public HashMap<Integer, Emp> getMap() {
 		return map;
 	}

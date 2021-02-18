@@ -40,7 +40,7 @@ public class EmpList {
 		}
 	}
 	
-	//전체 이름만 리턴 //숙제
+	//전체 이름만 리턴 //5번
 	public String getNamesStr() {
 		String names= "";
 		//for()
