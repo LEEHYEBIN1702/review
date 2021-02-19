@@ -2,6 +2,8 @@ package util;
 
 import java.util.ArrayList;
 
+import lombok.Data;
+
 public class EmpList {
 	ArrayList<Emp> list;
 	public EmpList() {
@@ -53,26 +55,5 @@ public class EmpList {
 		return list;
 	}
 }
-
-
-class Emp{
-	int id;
-	String name;
-	String dept;
-	public Emp() {}
-	
-	public Emp(int id, String name, String dept) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.dept = dept;
-	}
-
-	@Override
-	public String toString() {
-		return "Emp [id=" + id + ", name=" + name + ", dept=" + dept + "]";
-	}
 	
 	
-	
-}
